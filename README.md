@@ -19,10 +19,9 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 
 ### 3.MINI-MUNDO<br>
 
->O sistema “Organize” tem o objetivo de organizar, auxiliar no controle e manter o usuário informado de sua vida financeira, onde o mesmo pode informar todas suas transações financeiras sejam elas receitas ou despesas. Como por exemplo o valor de seu salário, suas despesas fixas, investimentos, entre outros.
-Da pessoa deverá ser armazenado o nome, cpf, data de nascimento, senha e contato, seja ele e-mail ou telefone. Onde cada pessoa deve possuir pelo menos uma forma de contato.
+>O sistema “Organize” conterá as informações aqui detalhadas. Da pessoa deverá ser armazenado o nome, cpf, data de nascimento, senha e contato, seja ele e-mail ou telefone. Onde cada pessoa deve possuir pelo menos uma forma de contato.
 Em relação às transações será necessário armazenar o tipo e descrição da transação, valor, data da operação e o código. Cada pessoa pode possuir nenhuma ou várias transações.
-O objetivo inicial do “Organize” é gerar um relatório informando ao usuário suas receitas e despesas otimizando o controle e organização das finanças. 
+ 
 
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>

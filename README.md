@@ -98,6 +98,7 @@ Organize")
     cod_tipo: Campo que armezena o codigo do tipo da transação.
     descricao_tipo: Campo que armazena qual o tipo da transação.
     ENDERECO: Tabela que armazena o endereço de cada pessoa cliente da empresa.
+    cod_endereco: Campo que armazena a qual pessoa pertence o endereço.
     descricao_logradouro: Campo que armazena a descrição do logradouro residencial.
     logradouro: Campo que armazena o logradouro residencial.
     numero: Campo que armazena o número residencial.

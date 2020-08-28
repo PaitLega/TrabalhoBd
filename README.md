@@ -154,6 +154,20 @@ Organize")
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     select * from pessoa;
+   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectPessoa.png)
+    
+    select * from tipo;
+   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectTipo.png)
+    
+    select * from endereco;
+   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectEndereco.png)
+    
+    select * from contato;
+   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectContato.png)
+    
+    select * from transacao;
+   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectTransacao.png)
+    
     
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>

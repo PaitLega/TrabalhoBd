@@ -140,6 +140,13 @@ Organize")
         
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
+        
+        create table contato_backup as select * from contato
+        create table pessoa_backup as select * from pessoa;
+        create table transacao_backup as select * from transacao;
+        create table tipo_backup as select * from tipo;
+        create table endereco_backup as select * from endereco;
+        
         c) formato .SQL
 
 

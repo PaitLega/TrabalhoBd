@@ -19,8 +19,11 @@ Este documento contém a especificação do projeto do banco de dados <Organize>
 
 ### 3.MINI-MUNDO<br>
 
->O sistema “Organize” conterá as informações aqui detalhadas. Da pessoa deverá ser armazenado o nome, cpf, data de nascimento, senha e contato, seja ele e-mail ou telefone. Onde cada pessoa deve possuir pelo menos uma forma de contato.
-Em relação às transações será necessário armazenar o tipo e descrição da transação, valor, data da operação e o código. Cada pessoa pode possuir nenhuma ou várias transações.
+>O sistema “Organize” conterá as informações aqui detalhadas. Da pessoa deverá ser armazenado o nome, cpf, data de nascimento, senha e contato, seja ele e-mail ou telefone. 
+Do endereço serão armazenados descrição logradouro, logradouro, número, bairro, município, cep e estado. Cada pessoa deve possuir pelo menos um contato e pelo menos um endereço. 
+Em relação às transações serão armazenados: tipo, descrição, valor, data da operação e o código. Os dados relativos ao tipo deverão possuir código e descrição do tipo de transação. 
+É importante destacar que cada pessoa pode possuir nenhuma ou várias transações, mas uma transação está associada apenas a uma única  pessoa. Em relação ao tipo de transação vale ressaltar que cada tipo pode ou não está associado a uma transação, mas cada transação deve possuir um tipo. 
+
  
 
 

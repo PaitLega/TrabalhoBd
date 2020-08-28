@@ -72,7 +72,6 @@ Organize")
     
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
     PESSOA: Tabela que armazena as informações relativas a pessoa cliente da empresa.
@@ -106,6 +105,8 @@ Organize")
         a) inclusão do esquema lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
+        
+![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/bd_modelologico.png)        
 
 ### 7	MODELO FÍSICO<br>             
         create table TIPO(cod_tipo int,descricao_tipo varchar(100),primary key (cod_tipo);

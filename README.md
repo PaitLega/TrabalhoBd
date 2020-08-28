@@ -143,7 +143,7 @@ Organize")
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         
-        create table contato_backup as select * from contato
+        create table contato_backup as select * from contato;
         create table pessoa_backup as select * from pessoa;
         create table transacao_backup as select * from transacao;
         create table tipo_backup as select * from tipo;
@@ -153,6 +153,20 @@ Organize")
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
+    select nome from pessoa;
+   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/nomeFromPessoa.png)
+    
+    select contato from contato;
+   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/contatoFromContato.png)
+    
+    select tipo,cpf_pessoa from transacao;
+   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/tipoCpfFromTransacao.png)
+    
+    
+    
+    
+    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
+#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
     select * from pessoa;
    ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectPessoa.png)
     
@@ -167,10 +181,6 @@ Organize")
     
     select * from transacao;
    ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectTransacao.png)
-    
-    
-    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
-#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 

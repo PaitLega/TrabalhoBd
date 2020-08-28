@@ -80,27 +80,27 @@ Organize")
     PESSOA: Tabela que armazena as informações relativas a pessoa cliente da empresa.
     cpf: Campo que armazena o número de Cadastro de Pessoa Física para cada pessoa cliente da empresa.
     nome: Campo que armazena o nome de cada pessoa cliente da empresa.
-    data_nascimento: Campo que armazena a data de nascimento de cada pessoa cliente da empresa.<br>
-    senha: Campo que armazena a senha de acesso de cada pessoa cliente da empresa.<br>
-    CONTATO: Tabela que armazena as informações relativas ao contato de uma pessoa cliente da empresa<br>
-    cod_contato: Campo que armazena o codigo do contato para cada pessoa cliente da empresa.<br>
-    contato: Campo que armazena qual o meio de contato para cada pessoa cliente da empresa.<br>
-    TRANSACAO: Tabela que armazena transações efetuadas pela pessoa cliente da empresa.<br>
-    cod_transacao: Campo que armazena o codigo da transação feita pela pessoa cliente da empresa.<br>
-    descricao_transacao: Campo que armazena a descrição da transação dada pela pessoa cliente da empresa.<br>
-    data_operacao: Campo que armazena a data que foi feita a transação pela pessoa cliente da empresa.<br>
-    valor: Campo que armazena o valor da transação feita pela pessoa cliente da empresa.<br>
-    TIPO: Tabela que armazena os tipos de operações possiveis para as transações.<br>
-    cod_tipo: Campo que armezena o codigo do tipo da transação.<br>
-    descricao_tipo: Campo que armazena qual o tipo da transação.<br>
-    ENDERECO: Tabela que armazena o endereço de cada pessoa cliente da empresa.<br>
-    descricao_logradouro: Campo que armazena a descrição do logradouro residencial.<br>
-    logradouro: Campo que armazena o logradouro residencial.<br>
-    numero: Campo que armazena o número residencial.<br>
-    bairro: Campo que armazena o bairro residencial.<br>
-    municipio: Campo que armazena o municipio residencial.<br>
-    cep: Campo que armazena o CEP residencial.<br>
-    estado: Campo que armazena o estado residencial.<br>
+    data_nascimento: Campo que armazena a data de nascimento de cada pessoa cliente da empresa.
+    senha: Campo que armazena a senha de acesso de cada pessoa cliente da empresa.
+    CONTATO: Tabela que armazena as informações relativas ao contato de uma pessoa cliente da empresa
+    cod_contato: Campo que armazena o codigo do contato para cada pessoa cliente da empresa.
+    contato: Campo que armazena qual o meio de contato para cada pessoa cliente da empresa.
+    TRANSACAO: Tabela que armazena transações efetuadas pela pessoa cliente da empresa.
+    cod_transacao: Campo que armazena o codigo da transação feita pela pessoa cliente da empresa.
+    descricao_transacao: Campo que armazena a descrição da transação dada pela pessoa cliente da empresa.
+    data_operacao: Campo que armazena a data que foi feita a transação pela pessoa cliente da empresa.
+    valor: Campo que armazena o valor da transação feita pela pessoa cliente da empresa.
+    TIPO: Tabela que armazena os tipos de operações possiveis para as transações.
+    cod_tipo: Campo que armezena o codigo do tipo da transação.
+    descricao_tipo: Campo que armazena qual o tipo da transação.
+    ENDERECO: Tabela que armazena o endereço de cada pessoa cliente da empresa.
+    descricao_logradouro: Campo que armazena a descrição do logradouro residencial.
+    logradouro: Campo que armazena o logradouro residencial.
+    numero: Campo que armazena o número residencial.
+    bairro: Campo que armazena o bairro residencial.
+    municipio: Campo que armazena o municipio residencial.
+    cep: Campo que armazena o CEP residencial.
+    estado: Campo que armazena o estado residencial.
 
 
 ### 6	MODELO LÓGICO<br>

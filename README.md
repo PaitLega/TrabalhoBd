@@ -5,9 +5,9 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Luiz Eduardo Gagno Amancio:luizgagnoamancio@gmail.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
-Rita da Silva Alves Guimarães:ritaalvesguimaraes@gmail.com<br>
+Luiz Eduardo Gagno Amancio: luizgagnoamancio@gmail.com<br>
+Rafael Xavier Braga: rafaelxavierbraga@gmail.com<br>
+Rita da Silva Alves Guimarães: ritaalvesguimaraes@gmail.com<br>
 ...<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>

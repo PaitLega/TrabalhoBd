@@ -8,7 +8,6 @@ Integrantes do grupo<br>
 Luiz Eduardo Gagno Amancio: luizgagnoamancio@gmail.com<br>
 Rafael Xavier Braga: rafaelxavierbraga@gmail.com<br>
 Rita da Silva Alves Guimarães: ritaalvesguimaraes@gmail.com<br>
-...<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 Este documento contém a especificação do projeto do banco de dados <Organize> <br>e motivação da escolha realizada. <br>

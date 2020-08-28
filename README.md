@@ -151,6 +151,8 @@ Organize")
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
+    select * from pessoa;
+    
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 

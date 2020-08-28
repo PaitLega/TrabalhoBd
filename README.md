@@ -77,10 +77,10 @@ Organize")
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
-    PESSOA: Tabela que armazena as informações relativas a pessoa cliente da empresa<br>
-    cpf: Campo que armazena o número de Cadastro de Pessoa Física para cada pessoa cliente da empresa.<br>
-    nome: Campo que armazena o nome de cada pessoa cliente da empresa.<br>
-    data_nascimento: Campo que armazena a data de nascimento de cada pessoa cliente da empresa .<br>
+    PESSOA: Tabela que armazena as informações relativas a pessoa cliente da empresa.
+    cpf: Campo que armazena o número de Cadastro de Pessoa Física para cada pessoa cliente da empresa.
+    nome: Campo que armazena o nome de cada pessoa cliente da empresa.
+    data_nascimento: Campo que armazena a data de nascimento de cada pessoa cliente da empresa.<br>
     senha: Campo que armazena a senha de acesso de cada pessoa cliente da empresa.<br>
     CONTATO: Tabela que armazena as informações relativas ao contato de uma pessoa cliente da empresa<br>
     cod_contato: Campo que armazena o codigo do contato para cada pessoa cliente da empresa.<br>

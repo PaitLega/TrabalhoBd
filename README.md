@@ -113,7 +113,23 @@ Organize")
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
-        (criação de tabelas, alterações, etc..) 
+        (criação de tabelas, alterações, etc..)
+create table TIPO(cod_tipo int,descricao_tipo varchar(100),primary key (cod_tipo));
+
+INSERT INTO TIPO values(1,'Saque'),(2,'Despesa'),(3,'Investimento'),(4,'Receita'),(5,'Depósito');
+
+create table PESSOA(cpf bigint,nome varchar(100),data_nascimento date,senha varchar(100),primary key (cpf));
+INSERT INTO PESSOA values(10104361234,'Ana Gomes','1995/01/11','123456'),(12945630790,'Sofia Salles','2000/04/22','675893'),(47345893011,'Fabio Nunes','1998/10/30','174524'),(58457731459,'João Almeida','1970/07/15','Joao123');
+
+create table CONTATO(cpf_pessoa bigint,contato varchar(100),foreign key (cpf_pessoa) references PESSOA (cpf));
+INSERT INTO CONTATO values(10104361234,'anagomes@gmail.com'),(10104361234,'27997648129'),(47345893011,'27998524459'),(47345893011,'fNunes@gmail.com'),(12945630790,'27998562473'),(58457731459,'JAlmeida@gmail.com');
+
+create table ENDERECO(cpf_pessoa bigint,logradouro varchar(100),descricao_logradouro varchar(100),numero int,bairro varchar(100),municipio varchar(100),cep int,estado char(2),foreign key (cpf_pessoa) references PESSOA(cpf));
+INSERT INTO ENDERECO values (10104361234,'Rua','Sabino Alves', 1122, 'Feu Rosa', 'Serra',29100200, 'ES'),(12945630790,'Avenida', 'Pedro Nolasco', 1123, 'Colina da Serra', 'Serra' ,29100201, 'ES'),(47345893011,'Rua', 'Beija Flor', 67, 'Laranjeiras', 'São Paulo',29100202, 'SP'),(58457731459,'Rua', 'Herman Stern', 235, 'Jacaraipe', 'Serra',29100203, 'ES');
+
+create table TRANSACAO(cod_transacao int,cpf_pessoa bigint,tipo int,descricao varchar(100),data_operacao date,valor float,primary key (cod_transacao), foreign key (cpf_pessoa) references PESSOA (cpf),foreign key (tipo) references TIPO(cod_tipo));
+INSERT INTO TRANSACAO values(1000,47345893011,4,'salario','2020/07/01',14500.00),(1102,10104361234,4,'recebimento aluguel','2020/07/05',2224.00),(1006,12945630790,2,'pagamento IPVA','2020/07/08',803.00),(1010,47345893011,2,'pagamento cartao de crédito','2020/07/10',6125.00),(1132,47345893011,3,'tesouro direto','2020/01/11',5000.00),(1360,47345893011,3,'bolsa de valores','2020/06/11',3000.00),(1456,58457731459,5,'poupança Itaú','2020/07/14',2500.00),(1589,12945630790,5,'poupança Caixa','2020/07/15',1500.00);
+
         
        
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>

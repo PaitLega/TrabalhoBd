@@ -77,11 +77,30 @@ Organize")
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    PESSOA: Tabela que armazena as informações relativas a pessoa cliente da empresa<br>
+    cpf: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    nome: campo que armazena o nome de cada pessoa cliente da empresa.<br>
+    data_nascimento: campo que armazena a data de nascimento de cada pessoa cliente da empresa .<br>
+    senha: campo que armazena a senha de acesso de cada pessoa cliente da empresa.<br>
+    CONTATO: Tabela que armazena as informações relativas ao contato de uma pessoa cliente da empresa<br>
+    cod_contato: campo que armazena o codigo de contato para cada pessoa cliente da empresa.<br>
+    contato: campo que armazena qual o meio de contato para cada pessoa cliente da empresa.<br>
+    TRANSACAO: .<br>
+    cod_transacao: .<br>
+    descricao_transacao: .<br>
+    data_operacao: .<br>
+    valor: .<br>
+    TIPO: .<br>
+    cod_tipo: .<br>
+    descricao_tipo: .<br>
+    ENDERECO: .<br>
+    descricao_logradouro: .<br>
+    logradouro: .<br>
+    numero: .<br>
+    bairro: .<br>
+    municipio: .<br>
+    cep: .<br>
+    estado: .<br>
 
 
 ### 6	MODELO LÓGICO<br>

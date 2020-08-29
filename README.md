@@ -147,29 +147,29 @@ Organize")
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     select nome from pessoa;
-   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/nomeFromPessoa.png)
+   ![Alt text](https://github.com/RafaelXavierBraga/Organize_Trab_BD1_2020/blob/master/images/nomeFromPessoa.png)
     
     select contato from contato;
-   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/contatoFromContato.png)
+   ![Alt text](https://github.com/RafaelXavierBraga/Organize_Trab_BD1_2020/blob/master/images/contatoFromContato.png)
     
     select tipo,cpf_pessoa from transacao;
-   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/tipoCpfFromTransacao.png)
+   ![Alt text](https://github.com/RafaelXavierBraga/Organize_Trab_BD1_2020/blob/master/images/tipoCpfFromTransacao.png)
     
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
     select * from pessoa;
-   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectPessoa.png)
+   ![Alt text](https://github.com/RafaelXavierBraga/Organize_Trab_BD1_2020/blob/master/images/selectPessoa.png)
     
     select * from tipo;
-   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectTipo.png)
+   ![Alt text](https://github.com/RafaelXavierBraga/Organize_Trab_BD1_2020/blob/master/images/selectTipo.png)
     
     select * from endereco;
-   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectEndereco.png)
+   ![Alt text](https://github.com/RafaelXavierBraga/Organize_Trab_BD1_2020/blob/master/images/selectEndereco.png)
     
     select * from contato;
-   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectContato.png)
+   ![Alt text](https://github.com/RafaelXavierBraga/Organize_Trab_BD1_2020/blob/master/images/selectContato.png)
     
     select * from transacao;
-   ![Alt text](https://github.com/PaitLega/TrabalhoBd/blob/master/images/selectTransacao.png)
+   ![Alt text](https://github.com/RafaelXavierBraga/Organize_Trab_BD1_2020/blob/master/images/selectTransacao.png)
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
